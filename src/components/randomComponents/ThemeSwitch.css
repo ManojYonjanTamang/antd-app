@@ -1,0 +1,18 @@
+/* Light Mode Styles */
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode {
+  filter: invert(100%);
+}
+.dark-mode img {
+  filter: invert(0);
+}
